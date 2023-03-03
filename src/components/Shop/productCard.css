@@ -1,0 +1,46 @@
+
+.shopCard {
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 32%;
+    width: 350px;
+    height: 530px;
+    background-size: cover;
+    background-position: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.shopCard:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.shopCard_img {
+    width: 350px;
+    height: 417px;
+    object-fit: cover;
+    background-position: 50%;
+}
+
+.shopCard_text {
+    font-family: sans-serif;
+    color: #2e2a2a;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+}
+
+.shopCard_price {
+    margin-bottom: 0px;
+    font-family: Helveticanowtext, sans-serif;
+    color: #2e2a2a;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #a8a8a8;
+}

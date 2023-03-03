@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    transition: top .5s ease,background-color .5s ease,color .5s ease,box-shadow .5s ease;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+li {
+    --ljqicn6: inherit;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: black;
+    transition: color 200ms;
+    cursor: pointer;
+}
+
+li:hover {
+    color: gray;
+    transition: color 200ms;
+    /*font-weight: 600;*/
+    cursor: pointer;
+}
+
+
+.headerLeft {
+    margin-left: 6.407407vw;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.headerMiddle {
+
+}
+
+.headerRight {
+    margin-right: 3.7037037037037037vw;
+}
+
+.headerRight_ul {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.headerRight_child {
+    color: black;
+    transition: 400ms;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.headerRight_child:hover {
+    color: grey;
+    transition: 400ms ;
+    transform: scale(1.2);
+
+}
